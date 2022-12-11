@@ -20,6 +20,7 @@ def parse_args():
     parser.add_argument("--gpus", default="0", help="visible gpus")
     return parser.parse_args()
 
+
 if __name__ == "__main__":
     args = parse_args()
 

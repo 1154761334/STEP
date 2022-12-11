@@ -21,7 +21,7 @@ CFG.DATASET_NAME = "PEMS04"
 CFG.DATASET_TYPE = "Traffic flow"
 CFG.DATASET_INPUT_LEN = 288 * 7 * 2
 CFG.DATASET_OUTPUT_LEN = 12
-CFG.GPU_NUM = 2
+CFG.GPU_NUM = 1
 
 # ================= environment ================= #
 CFG.ENV = EasyDict()
